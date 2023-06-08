@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # How to fork and clone
 One quick note about cloning this project. If you wish to make commits and push your own code, you'll need to fork the project first. Forking allows you to have your own copy of this repository by adding a duplicate version in your own profile!
 
@@ -35,4 +34,3 @@ git checkout -b my-main-branch
 =======
 # React-Shop
 A project demonstrate my skills in ReactJS and TypeScript.
->>>>>>> fd5e3b939779c308ef15235051ca1494c82e4dfa
