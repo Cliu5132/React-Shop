@@ -9,3 +9,4 @@ The `master` branch is the most up-to-date code, but may not necessarily in `rel
 =======
 # React-Shop
 A project demonstrate my skills in ReactJS and TypeScript.
+Repo: https://github.com/Cliu5132/React-Shop
