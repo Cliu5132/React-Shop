@@ -1,5 +1,7 @@
 import { createContext, useReducer, useEffect } from 'react';
 
+// import { uploader } from '../utils/firebase/batchUploadToFirebase';
+
 import { createAction } from '../utils/reducer/reducer.utils';
 
 import { getCategoriesAndDocuments } from '../utils/firebase/firebase.utils';
@@ -37,6 +39,11 @@ export const CategoriesProvider = ({ children }) => {
     dispatch(
       createAction(CATEGORIES_ACTION_TYPES.SET_CATEGORIES_MAP, categoriesMap)
     );
+
+  //uploader
+  // useEffect(() => {
+  //   uploader();
+  // }, []);
 
   useEffect(() => {
     const getCategoriesMap = async () => {
